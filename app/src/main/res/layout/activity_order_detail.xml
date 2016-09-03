@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/order_detail_rl"
+    style="@style/base_activity">
+
+    <include layout="@layout/title_lay" />
+
+
+    <ListView
+        android:id="@+id/order_shangpin_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/topay_ll"
+        android:layout_below="@+id/titleView"
+        android:divider="@mipmap/line_chang"
+        android:dividerHeight="1px"
+        android:scrollbars="none" />
+
+    <LinearLayout
+        android:id="@+id/topay_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <include layout="@layout/line_lay" />
+
+        <RelativeLayout
+            android:id="@+id/go_to_pay_rel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:visibility="gone">
+
+
+            <Button
+                android:id="@+id/change_pay_type"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="12dp"
+                android:layout_toLeftOf="@+id/go_to_pay"
+                android:background="@drawable/selector_change_pay_type"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="发货到服务站"
+                android:textColor="@color/white_orange_text_selector"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+
+            <Button
+                android:id="@+id/go_to_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/login_roate_orange"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="审核付款"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <include layout="@layout/line_lay" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/pop_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/pop_bg"
+        android:visibility="gone" />
+</RelativeLayout>

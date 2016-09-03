@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/item_agent_report_ll"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/title_new_customer_count_ll"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/title_new_customer_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxEms="3"
+                android:text="新增客户"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/title_new_customer_count_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/sort_up" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/title_total_agent_count_ll"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/title_total_agent_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxEms="3"
+                android:text="新增经纪人"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/title_total_agent_count_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/sort_up" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/title_reg_customer_count_ll"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/title_reg_customer_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxEms="3"
+                android:text="新登记客户"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/title_reg_customer_count_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/sort_up" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/title_new_order_count_ll"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/title_new_order_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxEms="3"
+                android:text="新增订单数"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/title_new_order_count_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/sort_up" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/title_order_count_ll"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/title_order_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxEms="3"
+                android:text="新订单完成数"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/title_order_count_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/sort_up" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

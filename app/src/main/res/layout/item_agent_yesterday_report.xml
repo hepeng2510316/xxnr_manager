@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/item_agent_report_ll"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/new_customer_count"
+            style="@style/agent_list_cell" />
+
+        <TextView
+            android:id="@+id/total_customer_count"
+            style="@style/agent_list_cell" />
+
+        <TextView
+            android:id="@+id/total_agent_count"
+            style="@style/agent_list_cell" />
+
+        <TextView
+            android:id="@+id/reg_customer_count"
+            style="@style/agent_list_cell" />
+
+        <TextView
+            android:id="@+id/total_reg_customer_count"
+            style="@style/agent_list_cell" />
+
+        <TextView
+            android:id="@+id/order_count"
+            style="@style/agent_list_cell" />
+
+        <TextView
+            android:id="@+id/price_amount"
+            android:layout_width="97dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

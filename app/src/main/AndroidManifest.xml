@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.xxnr">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.app.xxnr.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.app.xxnr.ui.activity.SplashActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.xxnr.ui.activity.LoginActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.app.xxnr.ui.activity.MainActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.app.xxnr.ui.activity.CustomerManageActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.app.xxnr.ui.activity.CustomerSearchActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.app.xxnr.ui.activity.CustomerDetailActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.activity.PotentialListActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.app.xxnr.ui.activity.PotentialSearchActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.app.xxnr.ui.activity.PotentialDetailActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.app.xxnr.ui.activity.OrderManagerActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.app.xxnr.ui.activity.OrderSearchActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.app.xxnr.ui.activity.OrderDetailActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.app.xxnr.ui.activity.OrderPayDetailActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.activity.datacenter.DataCenterActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.activity.datacenter.DataCenterQuestionActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.activity.datacenter.DailyPickerActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.activity.datacenter.WeekPickerActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.activity.datacenter.DailyDetailActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.activity.datacenter.WeekDetailActivity"
+            android:launchMode="singleTask" />
+        <meta-data
+            android:name="com.app.xxnr.utils.glide.CustomGlideModule"
+            android:value="GlideModule" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/base_activity"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/title_lay" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="center_vertical"
+        android:background="@color/order_title_bg">
+
+        <TextView
+            style="@style/calendar_week"
+            android:text="日" />
+
+        <TextView
+            style="@style/calendar_week"
+            android:text="一" />
+
+        <TextView
+            style="@style/calendar_week"
+            android:text="二" />
+
+        <TextView
+            style="@style/calendar_week"
+            android:text="三" />
+
+        <TextView
+            style="@style/calendar_week"
+            android:text="四" />
+
+        <TextView
+            style="@style/calendar_week"
+            android:text="五" />
+
+        <TextView
+            style="@style/calendar_week"
+            android:text="六" />
+
+    </LinearLayout>
+
+    <include layout="@layout/line_lay" />
+
+    <com.squareup.timessquare.CalendarPickerView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calendar_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        app:tsquare_displayHeader="false"
+        app:tsquare_dividerColor="@color/transparent" />
+
+</LinearLayout>

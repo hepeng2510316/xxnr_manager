@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- activity的背景颜色 -->
+    <color name="default_act_bg">#fafafa</color>
+    <!-- 绿色 -->
+    <color name="green">#00b38a</color>
+    <!-- 红色 -->
+    <color name="red">#df3d3e</color>
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <!-- 透明色 -->
+    <color name="transparent">#00000000</color>
+    <!-- 返回按钮点击色 -->
+    <color name="back_press_bg">#33000000</color>
+    <!-- listView的点击色 -->
+    <color name="list_bg">#f8f8f8</color>
+    <!-- 灰色 -->
+    <color name="gray">#c7c7c7</color>
+    <!--文字颜色浅灰-->
+    <color name="french_gray">#909090</color>
+    <!--浅绿色-->
+    <color name="light_green">#66d1b9</color>
+    <!--文字黑色-->
+    <color name="default_black">#323232</color>
+    <!--深黑色-->
+    <color name="deep_black">#646464</color>
+    <!--橙色-->
+    <color name="orange">#fe9b00</color>
+    <!--蓝色-->
+    <color name="blue">#33CFFC</color>
+    <!--选中绿-->
+    <color name="btn_lv_check">#66d1b9</color>
+    <!--分界灰-->
+    <color name="light_gray">#e0e0e0</color>
+
+    <!--提示灰-->
+    <color name="light_gray1">#c0c0c0</color>
+    <!--按钮灰-->
+    <color name="light_gray3">#e2e2e2</color>
+    <!--半透明-->
+    <color name="half_gray">#50000000</color>
+
+    <!--popupwindow背景色-->
+    <color name="pop_bg">#95000000</color>
+    <!--价格的颜色-->
+    <color name="orange_goods_price">#ff4e00</color>
+    <!--选中的橙色-->
+    <color name="checked_orange">#fec366</color>
+    <!--价格的颜色-->
+    <color name="re_flash">#fafafa</color>
+    <!--订单地址背景色-->
+    <color name="order_address_bg">#fffaf6</color>
+    <!--订单titile背景-->
+    <color name="order_title_bg">#f0f0f0</color>
+
+    <!--日报数量颜色-->
+    <color name="daily_report_count">#0091A2</color>
+
+    <!--日期加减不可点颜色-->
+    <color name="date_unable">#a2a2a2</color>
+
+    <color name="column_orange">#FCAC42</color>
+
+
+</resources>

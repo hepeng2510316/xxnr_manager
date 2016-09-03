@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/base_activity"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_lay" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:src="@mipmap/index_username" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/login_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/btn_selector_login_out"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/login_out"
+            android:textColor="@color/login_out_text_selector"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <include layout="@layout/line_lay" />
+
+
+    <LinearLayout
+
+        android:id="@+id/main_user_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@color/default_act_bg" />
+
+        <include layout="@layout/line_lay" />
+
+
+        <LinearLayout
+            android:id="@+id/customer_manage_ll"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/list_bg_selector"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:src="@mipmap/index_manage" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/customer_manage" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:src="@mipmap/arrow_right" />
+
+        </LinearLayout>
+
+        <include layout="@layout/line_lay" />
+
+        <LinearLayout
+            android:id="@+id/potential_customer_ll"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/list_bg_selector"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:src="@mipmap/index_potential_customer" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/potential_customer" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:src="@mipmap/arrow_right" />
+
+
+        </LinearLayout>
+
+        <include layout="@layout/line_lay" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_order_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@color/default_act_bg" />
+
+        <include layout="@layout/line_lay" />
+
+        <LinearLayout
+            android:id="@+id/order_manage_ll"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/list_bg_selector"
+            android:gravity="center_vertical">
+
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:src="@mipmap/index_order" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/order_manage" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:src="@mipmap/arrow_right" />
+
+
+        </LinearLayout>
+
+        <include layout="@layout/line_lay" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/main_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@color/default_act_bg" />
+
+        <include layout="@layout/line_lay" />
+
+        <LinearLayout
+            android:id="@+id/data_center_ll"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/list_bg_selector"
+            android:gravity="center_vertical">
+
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:src="@mipmap/data_center" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/data_center" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:src="@mipmap/arrow_right" />
+
+        </LinearLayout>
+
+        <include layout="@layout/line_lay" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

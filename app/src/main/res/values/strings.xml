@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">新新农人运营版</string>
+    <string name="newfarmer_operation">新新农人-运营版</string>
+
+    <string name="phone_num">手机号</string>
+    <string name="name">姓名</string>
+    <string name="sex">性别</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="login_button_name">登录</string>
+    <string name="login_user_name">用户名</string>
+    <string name="login_password">密码</string>
+    <string name="login_out">退出登录</string>
+
+    <string name="customer_manage">客户管理</string>
+    <string name="potential_customer">潜在客户</string>
+    <string name="order_manage">订单管理</string>
+    <string name="data_center">数据中心</string>
+
+    <string name="loading">正在加载…</string>
+    <string name="amounts">合计：</string>
+</resources>

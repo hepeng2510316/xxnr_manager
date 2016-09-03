@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true">
+
+    <com.app.xxnr.widget.KeyboardListenRelativeLayout
+        android:id="@+id/rootView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/login_bg_img">
+
+        <ScrollView
+            android:id="@+id/login_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/common_margin"
+                android:paddingRight="@dimen/common_margin">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="110dp"
+                    android:background="@mipmap/xxnr_logo_white" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@mipmap/operating_version_write" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/write_corners_bg"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="55dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@mipmap/username_icon" />
+
+                        </LinearLayout>
+
+                        <com.app.xxnr.widget.ClearEditText
+                            android:id="@+id/login_name_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="@dimen/common_margin_10"
+                            android:background="@null"
+                            android:drawableRight="@drawable/delete_selector"
+                            android:gravity="center_vertical"
+                            android:hint="@string/login_user_name"
+                            android:maxLength="20"
+                            android:textColorHint="@color/french_gray" />
+                    </LinearLayout>
+
+
+                    <include layout="@layout/line_lay" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="55dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@mipmap/password_icon" />
+
+                        </LinearLayout>
+
+
+                        <com.app.xxnr.widget.ClearEditText
+                            android:id="@+id/login_pass_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="@dimen/common_margin_10"
+                            android:background="@null"
+                            android:drawableRight="@drawable/delete_selector"
+                            android:gravity="center_vertical"
+                            android:hint="@string/login_password"
+                            android:inputType="textPassword"
+                            android:maxLength="20"
+                            android:textColorHint="@color/french_gray" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/login_sure_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/selector_green_lightgreen"
+                    android:gravity="center"
+                    android:text="@string/login_button_name"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </com.app.xxnr.widget.KeyboardListenRelativeLayout>
+
+</RelativeLayout>

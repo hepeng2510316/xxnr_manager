@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/base_activity"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/title_lay" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <com.app.xxnr.widget.UnSwipeListView
+            android:id="@+id/year_listView"
+            android:layout_width="90dp"
+            android:divider="@null"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+
+        <TextView
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/gray" />
+
+        <ListView
+            android:id="@+id/week_listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/gray"
+            android:dividerHeight="1px" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/item_agent_report_ll"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/title_new_customer_count_ll"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/title_new_customer_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxEms="3"
+                android:text="昨日新客户"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/title_new_customer_count_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/sort_up" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/title_total_customer_count_ll"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/title_total_customer_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxEms="3"
+                android:text="总客户数"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/title_total_customer_count_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/sort_up" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/title_total_agent_count_ll"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/title_total_agent_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxEms="3"
+                android:text="总经纪人数"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/title_total_agent_count_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/sort_up" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/title_reg_customer_count_ll"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/title_reg_customer_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxEms="3"
+                android:text="昨日登记客户"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/title_reg_customer_count_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/sort_up" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/title_total_reg_customer_count_ll"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/title_total_reg_customer_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxEms="3"
+                android:text="总登记客户"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/title_total_reg_customer_count_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/sort_up" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/title_order_count_ll"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/title_order_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxEms="3"
+                android:text="已完成订单"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/title_order_count_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/sort_up" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/title_price_amount_ll"
+            android:layout_width="97dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/title_price_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:maxEms="4"
+                android:text="已完成金额(元)"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/title_price_amount_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/sort_up" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
